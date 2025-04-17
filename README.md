@@ -50,7 +50,7 @@ if tar -czf backup.tar.gz /data; then
 else
   email send --non-interactive -to "backup@example.com" -subject "Backup Failed" -body "Backup failed. Please check logs."
 fi
-
+```
 
 ## Installation
 
